@@ -37,7 +37,7 @@
                                         <th>No</th>
                                         
 										<th>Precio</th>
-										<th>Cliente Id</th>
+										<th>Clientes Id</th>
 
                                         <th></th>
                                     </tr>
@@ -48,7 +48,7 @@
                                             <td>{{ ++$i }}</td>
                                             
 											<td>{{ $pedido->precio }}</td>
-											<td>{{ $pedido->cliente_id }}</td>
+											<td>{{ $pedido->clientes_id }}</td>
 
                                             <td>
                                                 <form action="{{ route('pedidos.destroy',$pedido->id) }}" method="POST">

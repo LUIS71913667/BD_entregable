@@ -7,9 +7,9 @@
             {!! $errors->first('precio', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ Form::label('cliente_id') }}
-            {{ Form::text('cliente_id', $pedido->cliente_id, ['class' => 'form-control' . ($errors->has('cliente_id') ? ' is-invalid' : ''), 'placeholder' => 'Cliente Id']) }}
-            {!! $errors->first('cliente_id', '<div class="invalid-feedback">:message</div>') !!}
+            {{ Form::label('clientes_id') }}
+            {{ Form::text('clientes_id', $pedido->clientes_id, ['class' => 'form-control' . ($errors->has('clientes_id') ? ' is-invalid' : ''), 'placeholder' => 'Clientes Id']) }}
+            {!! $errors->first('clientes_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
 
     </div>

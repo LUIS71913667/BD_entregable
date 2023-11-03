@@ -40,7 +40,7 @@ class Cliente extends Model
      */
     public function pedidos()
     {
-        return $this->hasMany('App\Models\Pedido', 'cliente_id', 'id');
+        return $this->hasMany('App\Models\Pedido', 'clientes_id', 'id');
     }
     
 
