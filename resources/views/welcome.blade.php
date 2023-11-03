@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        <style>
+            body{
+                src: url(img.jpg);
+            }
+        </style>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -30,7 +35,7 @@
                     @endauth
                 </div>
             @endif
-            <h1>xd</h1>
+            <h1>TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
         </div>
     </body>
 </html>
