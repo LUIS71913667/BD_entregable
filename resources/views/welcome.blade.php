@@ -30,9 +30,11 @@
                     @endauth
                 </div>
             @endif
-            <h1> TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
-
-            <img src="{{ asset('images/mi-img.jpg') }}" alt="C:\laragon\www\BD_entregable\public">
+            <h1>TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
+            <?php
+    echo 'no se separa los parafos ' . PHP_EOL;
+    echo ' HELP' . "\n";
+?>
 
 
             <p>no se da insertar imagen profe xd</p>
