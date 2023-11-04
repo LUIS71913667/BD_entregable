@@ -5,11 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-        <style>
-            body{
-                src: url(img.jpg);
-            }
-        </style>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -35,7 +30,12 @@
                     @endauth
                 </div>
             @endif
-            <h1>TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
+            <h1> TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
+
+            <img src="{{ asset('images/mi-img.jpg') }}" alt="C:\laragon\www\BD_entregable\public">
+
+
+            <p>no se da insertar imagen profe xd</p>
         </div>
     </body>
 </html>
