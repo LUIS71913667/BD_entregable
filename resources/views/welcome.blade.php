@@ -30,11 +30,12 @@
                     @endauth
                 </div>
             @endif
-            <h1>TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
+            <h1 Styles="color: blue;" >TIENDITA VIRTUAL DEL BUEN PEPE SENATINO</h1>
             <?php
     echo 'no se separa los parafos ' . PHP_EOL;
     echo ' HELP' . "\n";
 ?>
+    
 
 
             <p>no se da insertar imagen profe xd</p>
